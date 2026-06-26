@@ -2,7 +2,12 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    
+    <!-- Verificación de Facebook -->
+    <meta name="facebook-domain-verification" content="am187d6rigeptz8kflkgjun3cq5fmt" />
+    
     <title>Tu Trauma de Confianza</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,7 +30,7 @@
 
         nav a {
             color: white;
-            margin: 0 10px;
+            margin: 0 15px;
             text-decoration: none;
             font-weight: bold;
         }
@@ -49,6 +54,12 @@
             padding: 10px 15px;
             border-radius: 5px;
             cursor: pointer;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
         }
 
         footer {
@@ -78,33 +89,34 @@
 
     <div class="card">
         <h2>Bienvenido</h2>
-        <p>En Tu Trauma de Confianza ofrecemos atención especializada en salud y traumatología, con profesionales comprometidos con tu bienestar.</p>
+        <p>Brindamos atención en traumatología y medicina general con calidad y confianza para tu bienestar.</p>
     </div>
 
     <div class="card">
         <h2>Nuestros Servicios</h2>
         <ul>
             <li>Consulta médica general</li>
-            <li>Atención de traumatología</li>
+            <li>Traumatología</li>
             <li>Rehabilitación física</li>
-            <li>Seguimiento de lesiones</li>
+            <li>Atención de lesiones</li>
         </ul>
     </div>
 
     <div class="card">
         <h2>Agenda tu Cita</h2>
-        <p>Programa tu consulta de forma rápida y segura.</p>
+        <p>Llena el formulario para programar tu consulta.</p>
 
         <form>
-            <label>Nombre:</label><br>
-            <input type="text" placeholder="Tu nombre"><br><br>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Tu nombre">
 
-            <label>Fecha:</label><br>
-            <input type="date"><br><br>
+            <label>Fecha:</label>
+            <input type="date">
 
-            <label>Hora:</label><br>
-            <input type="time"><br><br>
+            <label>Hora:</label>
+            <input type="time">
 
+            <br><br>
             <button type="submit">Agendar Cita</button>
         </form>
     </div>
